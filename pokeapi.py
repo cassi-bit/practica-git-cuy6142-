@@ -1,6 +1,6 @@
 import requests
  
-nombre = "pikachu"
+nombre = "ingrese nombre pokemon"
 url = f"https://pokeapi.co/api/v2/pokemon/{nombre}"
  
 respuesta = requests.get(url, timeout=10)
